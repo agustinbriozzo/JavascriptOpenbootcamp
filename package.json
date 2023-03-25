@@ -1,0 +1,12 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Javascript OpenBootcamp",
+  "main": "",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Briozzo",
+  "license": "ISC"
+}
