@@ -11,3 +11,12 @@
 - Una variable que contenga el mes de tu nacimiento (recuerda que Enero es mes 0)
 
 - Una variable que contenga el año de tu nacimiento (con 4 dígitos) */
+
+const fechaHoy = new Date()
+const fechaNacimiento = new Date(1997,11,4)
+const tarde = fechaHoy > fechaNacimiento
+const dia = fechaNacimiento.getDay()
+const mes = fechaNacimiento.getMonth()
+const anio = fechaNacimiento.getFullYear()
+
+console.log(tarde)
