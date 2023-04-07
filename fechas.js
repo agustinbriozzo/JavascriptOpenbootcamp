@@ -20,3 +20,5 @@ const mes = fechaNacimiento.getMonth()
 const anio = fechaNacimiento.getFullYear()
 
 console.log(tarde)
+console.log(fechaHoy)
+console.log(fechaHoy.toLocaleDateString())
